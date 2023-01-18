@@ -6,16 +6,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export const Navb = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='py-3' >
-            <Container>
-                <nav className="navbar navbar-dark bg-dark">
+            <nav className="navbar navbar-dark bg-dark py-0 ">
                         <a className="navbar-brand" href="#home">
                             <img src='/byakkoLogo.png' alt='byakko' className='logo' width='100px' height='100px' />
                         </a>
                 </nav>
-
-                <Navbar.Brand href="#home"><b>BYAKKO YAMA</b></Navbar.Brand>
+            <Container className='containerNav'>
+                <Navbar.Brand href="#home"><b className='byakkoFont' >BYAKKO YAMA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse id="responsive-navbar-nav" className='responsive-navbar-nav'>
                     <Nav className="me-auto">
                         <Nav.Link href="#inicio">Inicio</Nav.Link>
                         <Nav.Link href="#nosotros">Nosotros</Nav.Link>
@@ -33,7 +32,7 @@ export const Navb = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Nav>
+                    <Nav className="me-auto">
                         <Nav.Link href="#ingresar">Ingresar</Nav.Link>
                         <Nav.Link eventKey={2} href="#registrase">
                             registrarse

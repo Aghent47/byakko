@@ -6,38 +6,51 @@ body{
 
 }
 
-:root{
+.logo{ 
+  margin-left : 80px;
+}
+.containerNav{
+   margin-left: 0;
+    margin-right: 0px;
+}
+/* :root{
   --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
 
-}
+} */
 
 .main-latter{
   font-weight: 500;
   color: #fff;
   margin-top: 100px;
-  font-family: 'Popins', sans-serif;
+  font-family: 'Morganite', sans-serif;                            
   height: 50vh;
   display: flex;
 
+}
+
+.me-auto{
+  font-size: 1.6rem !important;
+}
+
+.byakkoFont{
+  font-size: 5rem;
+  font-family: 'Morganite', sans-serif;
 }
 
 .texts{
   margin: auto;
   display: flex;
   flex-direction: column;
-}
-
-.name{
-  font-size: 4.5rem;
-  margin-bottom: .5em;
-  position: relative;
-  padding-left: 1rem;
   
 }
 
+.name{
+  font-size: 15rem;
+  margin-bottom: .5rem;
+}
+
 .subtitle {
-  font-size: 4rem;
-  font-weight: 100;
+  font-size: 10rem; 
 }
 
 /* .name::before{
