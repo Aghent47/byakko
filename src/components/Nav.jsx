@@ -7,8 +7,8 @@ export const Navb = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='py-3' >
             <Container>
-                <nav class="navbar navbar-dark bg-dark">
-                        <a class="navbar-brand" href="#home">
+                <nav className="navbar navbar-dark bg-dark">
+                        <a className="navbar-brand" href="#home">
                             <img src='/byakkoLogo.png' alt='byakko' className='logo' width='100px' height='100px' />
                         </a>
                 </nav>
