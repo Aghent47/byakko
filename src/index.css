@@ -1,9 +1,67 @@
 body{
+
   background: #200122; 
   background: -webkit-linear-gradient(to right, #6f0000, #200122);  
   background: linear-gradient(to right, #6f0000, #200122); 
 
 }
+
+:root{
+  --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+}
+
+.main-latter{
+  font-weight: 500;
+  color: #fff;
+  margin-top: 100px;
+  font-family: 'Popins', sans-serif;
+  height: 50vh;
+  display: flex;
+
+}
+
+.texts{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  font-size: 4.5rem;
+  margin-bottom: .5em;
+  position: relative;
+  padding-left: 1rem;
+  
+}
+
+.subtitle {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+/* .name::before{
+  display: block;
+  content: "";
+  background: #6f0000;
+  width: 130%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: -1;
+  clip-path: var(--clippy);
+  transition: clip-path 2s;
+}
+ */
 button {
   margin-right: 10px;
 }
+
+/* .subtitle::before{
+  background: #370716fa ;
+}
+
+.name:hover::before{
+  clip-path: polygon(0 0, 75% 1%, 100% 100%, 0% 100%);
+} */
