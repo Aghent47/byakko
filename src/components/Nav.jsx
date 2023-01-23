@@ -7,10 +7,11 @@ export const Navb = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='py-3' >
             <nav className="navbar navbar-dark bg-dark py-0 ">
-                        <a className="navbar-brand" href="#home">
-                            <img src='/byakkoLogo.png' alt='byakko' className='logo' width='100px' height='100px' />
-                        </a>
-                </nav>
+                <a className="navbar-brand" href="#home">
+                <img src='/byakkoLogo.png' alt='byakko' className='logo' />
+                </a>
+            </nav>
+
             <Container className='containerNav'>
                 <Navbar.Brand href="#home"><b className='byakkoFont' >BYAKKO YAMA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -32,13 +33,14 @@ export const Navb = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                </Navbar.Collapse>
-                <Nav className="me-auto">
+                    <Nav className="me-auto left">
                         <Nav.Link className="ingresar" href="#ingresar">Ingresar</Nav.Link>
                         <Nav.Link eventKey={2} href="#registrase">
                             registrarse
-                </Nav.Link>
+                        </Nav.Link>
                     </Nav>
+                </Navbar.Collapse>
+                
             </Container>
         </Navbar>
     );

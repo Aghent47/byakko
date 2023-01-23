@@ -6,17 +6,15 @@ body{
 
 }
 
-.logo{ 
+.logo{
   margin-left : 80px;
+  width:130px;
+  height:130px;
 }
 .containerNav{
   margin-left: 0;
   margin-right: 0px;
 }
-/* :root{
-  --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
-
-} */
 
 .main-latter{
   font-weight: 500;
@@ -28,23 +26,15 @@ body{
 
 }
 
-.responsive-navbar-nav1{
-  position: absolute;
-  left: 50% !important;
-  transform: translate(-50%);
-}
-
-.me-auto{
-  font-size: 1.8rem !important;
-  position: absolute;
-  left: 93% !important;
-  transform: translate(-50%);
-
+.responsive-navbar-nav1 {
+  font-size: 1.5em;
+  margin-left: 1.5em;
 }
 
 .byakkoFont{
   font-size: 5rem;
   font-family: 'Morganite', sans-serif;
+  padding-right: auto;
 }
 
 .texts{
@@ -54,14 +44,42 @@ body{
   
 }
 
-.name{
-  font-size: 15rem;
-  margin-bottom: .5rem;
+@media screen and (min-width: 900px){
+  .name{
+    font-size: 15em;
+    margin-bottom: .5rem;
+  }
+  
+  .subtitle {
+    font-size: 10em; 
+  }
 }
 
-.subtitle {
-  font-size: 10rem; 
+@media screen and (max-width: 899px){
+  .name{
+    font-size: 7em;
+    margin-bottom: .5rem;
+  }
+  
+  .subtitle {
+    font-size: 6em; 
+  }
+  .logo{ 
+    margin-left : 30px;
+    padding: 0%;
+  }
+  .byakkoFont{
+    font-size: 3.5rem;
+    font-family: 'Morganite', sans-serif;
+    margin-left: 15px;
+  }
+  
+
+  
 }
+
+
+
 
 /* .name::before{
   display: block;
