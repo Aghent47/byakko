@@ -10,8 +10,8 @@ body{
   margin-left : 80px;
 }
 .containerNav{
-   margin-left: 0;
-    margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0px;
 }
 /* :root{
   --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
@@ -28,8 +28,18 @@ body{
 
 }
 
+.responsive-navbar-nav1{
+  position: absolute;
+  left: 50% !important;
+  transform: translate(-50%);
+}
+
 .me-auto{
-  font-size: 1.6rem !important;
+  font-size: 1.8rem !important;
+  position: absolute;
+  left: 93% !important;
+  transform: translate(-50%);
+
 }
 
 .byakkoFont{

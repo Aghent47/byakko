@@ -14,7 +14,7 @@ export const Navb = () => {
             <Container className='containerNav'>
                 <Navbar.Brand href="#home"><b className='byakkoFont' >BYAKKO YAMA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" className='responsive-navbar-nav'>
+                <Navbar.Collapse id="responsive-navbar-nav" className='responsive-navbar-nav1'>
                     <Nav className="me-auto">
                         <Nav.Link href="#inicio">Inicio</Nav.Link>
                         <Nav.Link href="#nosotros">Nosotros</Nav.Link>
@@ -32,13 +32,13 @@ export const Navb = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#ingresar">Ingresar</Nav.Link>
+                </Navbar.Collapse>
+                <Nav className="me-auto">
+                        <Nav.Link className="ingresar" href="#ingresar">Ingresar</Nav.Link>
                         <Nav.Link eventKey={2} href="#registrase">
                             registrarse
-                        </Nav.Link>
+                </Nav.Link>
                     </Nav>
-                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
