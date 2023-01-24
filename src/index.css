@@ -27,14 +27,13 @@ body{
 }
 
 .responsive-navbar-nav1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-left: 1.5em;
 }
 
 .byakkoFont{
   font-size: 5rem;
   font-family: 'Morganite', sans-serif;
-  padding-right: auto;
 }
 
 .texts{
@@ -43,6 +42,22 @@ body{
   flex-direction: column;
   
 }
+
+@media screen and (max-width: 1300px ){
+  .responsive-navbar-nav1 {
+    font-size: 1em;
+  }
+  .logo{
+    margin-left : 80px;
+    width:110px;
+    height:110px;
+  }
+}
+@media screen and (max-width: 1080px ){
+  .responsive-navbar-nav1 {
+    font-size: .9em;
+  }
+} 
 
 @media screen and (min-width: 900px){
   .name{
@@ -73,36 +88,4 @@ body{
     font-family: 'Morganite', sans-serif;
     margin-left: 15px;
   }
-  
-
-  
 }
-
-
-
-
-/* .name::before{
-  display: block;
-  content: "";
-  background: #6f0000;
-  width: 130%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0%;
-  z-index: -1;
-  clip-path: var(--clippy);
-  transition: clip-path 2s;
-}
- */
-button {
-  margin-right: 10px;
-}
-
-/* .subtitle::before{
-  background: #370716fa ;
-}
-
-.name:hover::before{
-  clip-path: polygon(0 0, 75% 1%, 100% 100%, 0% 100%);
-} */
